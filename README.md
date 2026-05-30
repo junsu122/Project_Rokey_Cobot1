@@ -1,7 +1,7 @@
 # 🌸 Rokey_Cobot: Drawing Flower Project
 **두산 로봇 ROKEY Boot Camp 7기 B-3조** 비주얼 센서 없이 정밀한 좌표 제어와 클라우드 연동을 통한 **협동로봇 꽃꽂이 서비스**입니다.
 
-[🌸 drawing-flower.web.app](https://drawing-flower.web.app/) | [📋 Project Notion](https://www.notion.so/1-3429c0a50e0d8080a62ec49c508a4a99) | [🔥 Firebase Console](https://console.firebase.google.com/project/drawing-flower/overview)
+[🌸 drawing-flower.web.app](https://drawing-flower.web.app/) | [📋 Project Notion](https://www.notion.so/1-3429c0a50e0d8080a62ec49c508a4a99) | [🔥 Firebase Console](https://console.firebase.google.com/project/drawing-flower/overview) | [GitHub 원본 주소](https://github.com/junsu122/Rokey_Cobot)
 
 ---
 
