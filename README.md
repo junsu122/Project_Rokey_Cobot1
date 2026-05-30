@@ -1,7 +1,7 @@
 # 🌸 Rokey_Cobot: Drawing Flower Project
 **두산 로봇 ROKEY Boot Camp 7기 B-3조** 비주얼 센서 없이 정밀한 좌표 제어와 클라우드 연동을 통한 **협동로봇 꽃꽂이 서비스**입니다.
 
-[🌸 drawing-flower.web.app](https://drawing-flower.web.app/) | [📋 Project Notion](https://www.notion.so/1-3429c0a50e0d8080a62ec49c508a4a99) | [🔥 Firebase Console](https://console.firebase.google.com/project/drawing-flower/overview) | [GitHub 원본 주소](https://github.com/junsu122/Rokey_Cobot)
+[🌸 drawing-flower.web.app](https://drawing-flower.web.app/) | [📋 Project Notion](https://www.notion.so/1-3429c0a50e0d8080a62ec49c508a4a99) | [🔥 Firebase Console](https://console.firebase.google.com/project/drawing-flower/overview) | [🐙 GitHub 원본 주소](https://github.com/junsu122/Rokey_Cobot)
 
 ---
 
@@ -92,3 +92,57 @@ ros2 run robot_monitoring publisher
   3. 고객이 web상에서 주문취소를 했을때
   4. 로봇 작업중 일정 충격이 가해져, 일시정지 되었을때 (monitoring 코드에서 'r'을 눌러서 recovery 가능)
   5. 로봇 작업중 e-stop을 누르게 되어 로봇이 일시정지 되었을때 (e-stop 해제 후, monitoring 코드에서 'r'을 눌러 recovery 가능)
+
+---
+
+## 🔧 Trouble Shooting
+
+### 1. [문제 제목을 여기에 적어주세요]
+**증상**
+> 문제 상황을 간단히 설명해주세요.
+
+**원인**
+> 원인 분석 내용을 적어주세요.
+
+**해결 방법**
+> 해결 과정을 단계별로 적어주세요.
+
+<!-- GIF 또는 스크린샷 삽입 -->
+![trouble1](gif_또는_이미지_경로_여기에)
+
+---
+
+### 2. [문제 제목을 여기에 적어주세요]
+**증상**
+> 문제 상황을 간단히 설명해주세요.
+
+**원인**
+> 원인 분석 내용을 적어주세요.
+
+**해결 방법**
+> 해결 과정을 단계별로 적어주세요.
+
+<!-- GIF 또는 스크린샷 삽입 -->
+![trouble2](gif_또는_이미지_경로_여기에)
+
+---
+
+### 3. [문제 제목을 여기에 적어주세요]
+**증상**
+> 문제 상황을 간단히 설명해주세요.
+
+**원인**
+> 원인 분석 내용을 적어주세요.
+
+**해결 방법**
+> 해결 과정을 단계별로 적어주세요.
+
+<!-- GIF 또는 스크린샷 삽입 -->
+![trouble3](gif_또는_이미지_경로_여기에)
+
+---
+
+## 🎬 전체 시연 영상
+
+<!-- 시연 영상 링크 또는 GIF 삽입 -->
+[![시연 영상](영상_썸네일_이미지_경로)](유튜브_또는_영상_링크)
