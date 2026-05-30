@@ -99,7 +99,13 @@ ros2 run robot_monitoring publisher
 
 ### 1. [M0609 동작 제어]
 > M0609 전체 플로우 동작 설정
-> 1. 
+> 1. 좌표 수신
+> 2. 꽃꽂이용 꽃 집으러 가기
+> 3. 꽃 꽂이 좌표 앞으로 이동
+> 4. 꽃 꽂은 후, 그리퍼 오픈
+> 5. 홈으로 복귀
+> 6. 수신받은 좌표 만큼 반복 시행
+> 7. 시행이 끝나고 홈으로 복귀 후, 완료 메세지 송신
 
 ---
 
@@ -108,12 +114,11 @@ ros2 run robot_monitoring publisher
 > 로봇의 충돌 및 파괴를 예방하기 위한 공간 설정
 
 <!-- GIF 또는 스크린샷 삽입 -->
-![작업공간 미설정 M0609 직접교시 움직임]
-
+![작업공간 미설정 M0609 직접교시 움직임](assets/safety_not_apply.gif)
 
 <!-- GIF 또는 스크린샷 삽입 -->
 
-![작업공간 설정 M0609 직접교시 움직임](gif_또는_이미지_경로_여기에)
+![작업공간 설정 M0609 직접교시 움직임](assets/safety_apply.gif)
 
 ---
 
@@ -124,7 +129,9 @@ ros2 run robot_monitoring publisher
 > 사람과의 협업에서 사람과의 충돌을 예방하기 위한 공간 설정
 
 <!-- GIF 또는 스크린샷 삽입 -->
-![task3](gif_또는_이미지_경로_여기에)
+![협업공간 미설정 M0609 움직임](assets/collaborate_not_apply.gif)
+
+![협업공간 설정 M0609 움직임](assets/collaborate_apply.gif)
 
 ---
 
@@ -133,7 +140,9 @@ ros2 run robot_monitoring publisher
 > 좌표계가 기울어져 있을때 x,y,z와 roll,pitch,yaw 값을 모두 계산하지 않고 평면처럼 계산 가능
 
 <!-- GIF 또는 스크린샷 삽입 -->
-![task3](gif_또는_이미지_경로_여기에)
+![M0609 base 좌표계 x,y,z축 움직임](assets/user_tf_not_apply.gif)
+
+![M0609 사용자 좌표계 x,y,z축 움직임](assets/user_tf_apply.gif)
 
 ---
 
