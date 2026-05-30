@@ -113,12 +113,16 @@ ros2 run robot_monitoring publisher
 > M0609의 작업 공간을 설정하여, 그 외의 공간에서 동작을 방지
 > 로봇의 충돌 및 파괴를 예방하기 위한 공간 설정
 
-<!-- GIF 또는 스크린샷 삽입 -->
-![작업공간 미설정 M0609 직접교시 움직임](assets/safety_not_apply.gif)
-
-<!-- GIF 또는 스크린샷 삽입 -->
-
-![작업공간 설정 M0609 직접교시 움직임](assets/safety_apply.gif)
+<table>
+  <tr>
+    <td align="center"><b>미설정</b></td>
+    <td align="center"><b>설정 후</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/safety_not_apply.gif"/></td>
+    <td><img src="assets/safety_apply.gif"/></td>
+  </tr>
+</table>
 
 ---
 
@@ -128,10 +132,16 @@ ros2 run robot_monitoring publisher
 > 이 공간에서는, 충돌 감지 민감도가 대폭 상향
 > 사람과의 협업에서 사람과의 충돌을 예방하기 위한 공간 설정
 
-<!-- GIF 또는 스크린샷 삽입 -->
-![협업공간 미설정 M0609 움직임](assets/collaborate_not_apply.gif)
-
-![협업공간 설정 M0609 움직임](assets/collaborate_apply.gif)
+<table>
+  <tr>
+    <td align="center"><b>미설정</b></td>
+    <td align="center"><b>설정 후</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/collaborate_not_apply.gif"/></td>
+    <td><img src="assets/collaborate_apply.gif"/></td>
+  </tr>
+</table>
 
 ---
 
@@ -139,10 +149,16 @@ ros2 run robot_monitoring publisher
 > M0609의 새로운 좌표계를 생성하여, 사람이 봤을때 좌표가 직관적일 수 있도록 지정
 > 좌표계가 기울어져 있을때 x,y,z와 roll,pitch,yaw 값을 모두 계산하지 않고 평면처럼 계산 가능
 
-<!-- GIF 또는 스크린샷 삽입 -->
-![M0609 base 좌표계 x,y,z축 움직임](assets/user_tf_not_apply.gif)
-
-![M0609 사용자 좌표계 x,y,z축 움직임](assets/user_tf_apply.gif)
+<table>
+  <tr>
+    <td align="center"><b>기본 좌표계</b></td>
+    <td align="center"><b>사용자 좌표계</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/user_tf_not_apply.gif"/></td>
+    <td><img src="assets/user_tf_apply.gif"/></td>
+  </tr>
+</table>
 
 ---
 
