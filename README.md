@@ -99,6 +99,7 @@ ros2 run robot_monitoring publisher
 
 ### 1. [M0609 동작 제어]
 > M0609 전체 플로우 동작 설정
+> 1. 
 
 ---
 
@@ -111,6 +112,7 @@ ros2 run robot_monitoring publisher
 
 
 <!-- GIF 또는 스크린샷 삽입 -->
+
 ![작업공간 설정 M0609 직접교시 움직임](gif_또는_이미지_경로_여기에)
 
 ---
