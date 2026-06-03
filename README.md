@@ -4,11 +4,7 @@
 [🌸 drawing-flower.web.app](https://drawing-flower.web.app/) | [📋 Project Notion](https://www.notion.so/1-3429c0a50e0d8080a62ec49c508a4a99) | [🔥 Firebase Console](https://console.firebase.google.com/project/drawing-flower/overview) | [🐙 GitHub 원본 주소](https://github.com/junsu122/Rokey_Cobot)
 
 ---
-<<<<<<< Updated upstream
 # **[🎬 티저영상 보기](https://youtu.be/fTG8bLtbn_E)**
-=======
-# **[🎬 홍보영상 보기](https://youtu.be/fTG8bLtbn_E)**
->>>>>>> Stashed changes
 ---
 
 ## 🏗️ System Architecture
