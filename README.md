@@ -217,8 +217,8 @@ ros2 run robot_monitoring publisher
     <td align="center"><b>해결 후</b></td>
   </tr>
   <tr>
-    <td><img src="assets/trouble2_before.gif"/></td>
-    <td><img src="assets/trouble2_after.gif"/></td>
+    <td><img src="assets/no_play.gif"/></td>
+    <td><img src="assets/play.gif"/></td>
   </tr>
 </table>
 
