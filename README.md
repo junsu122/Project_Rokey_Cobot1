@@ -7,6 +7,28 @@
 # **[🎬 티저영상 보기](https://youtu.be/fTG8bLtbn_E)**
 ---
 
+## 📑 목차
+
+- [System Architecture](#architecture)
+- [Environment & Equipment](#environment)
+- [Dependencies](#dependencies)
+- [Execution Guide](#execution)
+- [Exception Handling](#exception-handling)
+- **[🙋 내 주요 업무](#my-work)**
+  - [1. M0609 동작 제어](#work-1)
+  - [2. M0609 작업공간 설정](#work-2)
+  - [3. M0609 협업공간 설정](#work-3)
+  - [4. M0609 사용자 좌표계 설정](#work-4)
+  - [5. GitHub 버젼 관리](#work-5)
+  - [6. 코드 전체 통합](#work-6)
+- **[🔧 Trouble Shooting](#trouble-shooting)**
+  - [1. singularity 발생](#trouble-1)
+  - [2. 작업시, 간섭 발생](#trouble-2)
+- [전체 시연 영상](#demo)
+
+---
+
+<a id="architecture"></a>
 ## 🏗️ System Architecture
 본 프로젝트는 **React(Frontend) - Firebase(Cloud) - ROS2(Backend)**가 유기적으로 연결된 분산 시스템 구조를 가집니다.
 
@@ -30,6 +52,7 @@
 
 ---
 
+<a id="environment"></a>
 ## 💻 Environment & Equipment
 ### Operating System & Software
 - **OS**: Ubuntu 22.04 LTS
@@ -44,6 +67,7 @@
 
 ---
 
+<a id="dependencies"></a>
 ## 📦 Dependencies
 프로젝트 실행을 위해 아래 라이브러리 설치가 필요합니다.
 
@@ -57,6 +81,7 @@ pip install textual-plotext
 ```
 
 ---
+<a id="execution"></a>
 ## 🚀 Execution Guide
 패키지를 빌드한 후 아래 순서대로 노드를 실행하세요.
 1. Build
@@ -86,6 +111,7 @@ ros2 run robot_monitoring publisher
 6. 웹에서 그림파일 넣어서 좌표 전송
 ---
 
+<a id="exception-handling"></a>
 ## ⚠️ Exception Handling
 작업 중 발생할 수 있는 예외 상황에 대해 다음과 같은 대응 로직이 포함되어 있습니다.
 - 상황대응 프로세스
@@ -97,8 +123,10 @@ ros2 run robot_monitoring publisher
 
 ---
 
+<a id="my-work"></a>
 ## 🙋 내 주요 업무
 
+<a id="work-1"></a>
 ### 1. [M0609 동작 제어]
 > M0609 전체 플로우 동작 설정
 > 1. 좌표 수신
@@ -111,6 +139,7 @@ ros2 run robot_monitoring publisher
 
 ---
 
+<a id="work-2"></a>
 ### 2. [M0609 작업공간 설정]
 - M0609의 작업 공간을 설정하여, 그 외의 공간에서 동작을 방지
 - 로봇의 충돌 및 파괴를 예방하기 위한 공간 설정
@@ -128,6 +157,7 @@ ros2 run robot_monitoring publisher
 
 ---
 
+<a id="work-3"></a>
 ### 3. [M0609 협업공간 설정]
 - M0609의 협업 공간을 설정하여, 사람과 상호작용 하는 부분을 지정
 - 이 공간에서는, 최대 속력이 250mm/s로 대폭 감소
@@ -147,6 +177,7 @@ ros2 run robot_monitoring publisher
 
 ---
 
+<a id="work-4"></a>
 ### 4. [M0609 사용자 좌표계 설정]
 - M0609의 새로운 좌표계를 생성하여, 사람이 봤을때 좌표가 직관적일 수 있도록 지정
 - 좌표계가 기울어져 있을때 x,y,z와 roll,pitch,yaw 값을 모두 계산하지 않고 평면처럼 계산 가능
@@ -164,20 +195,24 @@ ros2 run robot_monitoring publisher
 
 ---
 
+<a id="work-5"></a>
 ### 5. [GitHub 버젼 관리]
 - GitHub에서 전체적인 패키지와 모듈을 관리
 - 기존 메인 코드를 변경하기 전, 버젼으로 묶어서 관리
 
 ---
 
+<a id="work-6"></a>
 ### 6. [코드 전체 통합]
 - 구현이 완료된 코드를 받아서 동작을 확인하고 수정
 - 동작이 확인된 코드는 여러번의 테스트를 통해 최적의 성능을 낼 수 있도록 조정
 
 ---
 
+<a id="trouble-shooting"></a>
 ## 🔧 Trouble Shooting
 
+<a id="trouble-1"></a>
 ### 1. [singularity 발생]
 **증상**
 > 지정된 좌표로 moveL을 사용하여 관절을 움직이면, M0609가 완벽하게 일을 끝내지 못하고 정지해버림.
@@ -201,6 +236,7 @@ ros2 run robot_monitoring publisher
 
 ---
 
+<a id="trouble-2"></a>
 ### 2. [작업시, 간섭 발생]
 **증상**
 > 이미 꽂아져 있는 꽃들의 꽃잎에 그리퍼가 걸리거나, 그리퍼가 꽃을 망가뜨림
@@ -224,6 +260,7 @@ ros2 run robot_monitoring publisher
 
 ---
 
+<a id="demo"></a>
 ## 🎬 전체 시연 영상
 
 <!-- 시연 영상 링크 또는 GIF 삽입 -->
